@@ -5,7 +5,9 @@ use vendor\ControlEscolar\Alumno;
 // require_once 'vendor/ControlEscolar/Alumno.php';
 // crear un objeto de tipo Alumno (instanciar la clase Alumno)
 $alumno = new Alumno();
-
+$alumno->Nombres = 'Juan Antonio';
+$alumno->PrimerApellido = 'Lopez';
+$alumno->SegundoApellido = 'Perez';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,5 +21,10 @@ $alumno = new Alumno();
         <?php echo "Hola PHP"; ?>
         <?= "Hola PHP" ?>
     </h1>
+    <div>
+        <p>
+            <?= $alumno->Nombres . ' ' . $alumno->PrimerApellido . ' ' . $alumno->SegundoApellido ?>
+        </p>
+    </div>
 </body>
 </html>

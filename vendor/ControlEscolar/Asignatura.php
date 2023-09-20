@@ -14,9 +14,9 @@ class Asignatura
     public $Tipo;
 }
 
-enum TipoDeAsignatura
-{
-    case Modulo;
-    case Submodulo;
-    case Asignatura;
-}
+// enum TipoDeAsignatura
+// {
+//     case Modulo;
+//     case Submodulo;
+//     case Asignatura;
+// }
